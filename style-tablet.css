@@ -1,0 +1,17 @@
+/* 
+    Document   : style
+    Created on : 18.7.2014, 12:49:13
+    Author     : Viktor
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body
+{
+    font-size: 700%;
+}
+
+table
+{
+    width: 100%;
+}
+    

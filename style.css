@@ -1,0 +1,63 @@
+/* 
+    Document   : style
+    Created on : 18.7.2014, 12:49:13
+    Author     : Viktor
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* zakladne nastavenie tabuliek */
+table{
+ border-collapse: collapse;
+ border: 1px solid #CCCCCC;
+}
+
+tr
+{
+    border: 1px solid #CCCCCC;
+}
+
+/* podmienen formatovanie tabulkz podla stavu na sklade */
+table tr[stav="zaporny"]{
+   background: red; 
+}
+table tr[stav="minimalny_stav"]{
+   background: yellow; 
+}
+
+tbody tr:hover
+{
+    background: #C0C0C0;
+    border: 1px solid #CCCCCC;
+}
+
+/*nastavenie zakladneho menu*/
+#main_menu {
+    list-style-type: none;
+    margin: 1em;
+    padding: 0;
+    overflow: hidden;   
+}
+
+#main_menu li {
+    float: left;
+    width: 10%;
+}
+
+#main_menu a {
+    display: block;
+    background-color: #dddddd;
+}
+
+/*nastavenie zoznamu skladov */
+#zoznam_skladov {
+    list-style-type: none;
+    margin: 1em;
+    padding: 0;
+    overflow: hidden;   
+}
+
+#zoznam_skladov li {
+    float: left;
+    margin: 3px;
+}
