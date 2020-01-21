@@ -1,4 +1,7 @@
 <?php
+/*
+ * created by vbelco
+ */
 include "definition.php";//zakladne nastavenia
 
 include "route.php";// stranka na spracovanie odpovedi z formularov
